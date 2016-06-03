@@ -1,0 +1,50 @@
+{
+  "name": "promise-zone-explorer",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.2.0",
+    "npm": "3.8.9"
+  },
+  "description": "Data visualization web app for Sacramento's Promise Zone",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "npm run clean && npm run move && npm run pack",
+    "clean": "rm -rf ./dist && mkdir dist",
+    "move": "cp ./index.html ./dist",
+    "pack": "webpack --config ./production.config.js",
+    "postinstall": "npm prune",
+    "serve": "webpack-dev-server --inline --content-base . --history-api-fallback",
+    "serve:dist": "npm run bundle && npm start",
+    "start": "NODE_ENV=production node ./index.js",
+    "test": "eslint app/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SacPromiseZone/PromiseZoneExplorer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SacPromiseZone/PromiseZoneExplorer/issues"
+  },
+  "homepage": "https://github.com/SacPromiseZone/PromiseZoneExplorer#readme",
+  "dependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "body-parser": "^1.15.1",
+    "d3": "^3.5.17",
+    "express": "^4.13.4",
+    "global": "^4.3.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-faux-dom": "^2.5.0",
+    "react-router": "^2.4.1",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.11.1",
+    "eslint-plugin-react": "^5.1.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
