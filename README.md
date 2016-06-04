@@ -60,6 +60,7 @@ Kevin Fries, kelfink@yahoo.com
 Hillary Gaines, gaines219@gmail.com 
 Cliff Cheng, ccfcheng@gmail.com 
 Aheri Stanford-Asiyo, aherisan@gmail.com
+Maya Wallace, mayagirl@gmail.com
 
 The Theme: Revitalizing Priority Neighborhoods
 
