@@ -10,6 +10,7 @@
   "scripts": {
     "bundle": "npm run clean && npm run move && npm run pack",
     "clean": "rm -rf ./dist && mkdir dist",
+    "heroku-postbuild": "npm run bundle",
     "move": "cp ./index.html ./dist",
     "pack": "webpack --config ./production.config.js",
     "postinstall": "npm prune",
