@@ -62,7 +62,7 @@ Cliff Cheng, ccfcheng@gmail.com
 Aheri Stanford-Asiyo, aherisan@gmail.com
 Maya Wallace, mayagirl@gmail.com
 Ash Roughan, ash.roughani@gmail.com
-
+Dan Tran, dtran00@gmail.com
 The Theme: Revitalizing Priority Neighborhoods
 
 Sacramento is an economically and culturally diverse city that can also lay claim to being the most integrated city in the country. Residents from all walks of life live and work in close proximity to each other and share, to a certain extent, the ups and downs of the city together. However, Sacramento’s integration, including its economic integration, is far from complete. While the city’s fortunes have risen in recent years, the benefits of this rise have not permeated every community. At the same time, the city’s primary tool for promoting the development of its disadvantaged communities--redevelopment--was stripped by the state in recent years.
