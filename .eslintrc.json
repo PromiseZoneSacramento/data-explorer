@@ -6,6 +6,8 @@
     "extends": ["eslint:recommended", "plugin:react/recommended"],
     "globals": {
         "require": false,
+        "describe": false,
+        "it": false,
         "process": false,
         "module": false,
         "__dirname": false

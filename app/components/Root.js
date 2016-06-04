@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import d3 from 'd3';
 import ReactFauxDom from 'react-faux-dom';
 
-export default class Root extends Component {
+export default class Root extends React.Component {
   render() {
     const list = ReactFauxDom.createElement('ul');
 

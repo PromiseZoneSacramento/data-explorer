@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import {
   browserHistory,
   Route,
-  Router,
+  Router
 } from 'react-router';
 import RootContainer from './containers/RootContainer';
 
