@@ -1,10 +1,10 @@
-var React = require('react');
-var d3 = require('d3');
-var ReactFauxDom = require('react-faux-dom');
+import React from 'react';
+import d3 from 'd3';
+import ReactFauxDom from 'react-faux-dom';
 
-var Root = React.createClass({
-  render: function() {
-    var list = ReactFauxDom.createElement('ul');
+export default class Root extends React.Component {
+  render() {
+    const list = ReactFauxDom.createElement('ul');
 
     d3.select(list)
       .selectAll('li')
@@ -13,10 +13,8 @@ var Root = React.createClass({
       .append('li')
       .text(function (d) {
         return d;
-      })
+      });
 
     return list.toReact();
   }
-});
-
-module.exports = Root;
+}

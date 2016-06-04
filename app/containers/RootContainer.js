@@ -1,12 +1,10 @@
-var React = require('react');
-var Root = require('../components/Root');
+import React, { Component } from 'react';
+import Root from '../components/Root';
 
-var RootContainer = React.createClass({
-  render: function() {
+export default class RootContainer extends Component {
+  render() {
     return (
       <Root />
     );
   }
-});
-
-module.exports = RootContainer;
+}
